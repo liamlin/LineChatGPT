@@ -8,7 +8,7 @@ const OPENAI_API_TIMEOUT = CONFIG.OPENAI_API_TIMEOUT;
 
 // https://platform.openai.com/docs/api-reference/chat/create
 const DEFAULT_PAYLOAD = {
-  model: "gpt-3.5-turbo",
+  model: "gpt-4",
   // temperature: 1,
   top_p: CONFIG.OPENAI_TOP_P,
   max_tokens: CONFIG.OPENAI_MAX_TOKENS,
